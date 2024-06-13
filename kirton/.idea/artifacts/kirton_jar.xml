@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="kirton:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/kirton_jar</output-path>
+    <root id="archive" name="kirton.jar">
+      <element id="module-output" name="kirton" />
+    </root>
+  </artifact>
+</component>
