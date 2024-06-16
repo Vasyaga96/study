@@ -19,7 +19,7 @@ public class StudentsInteractive {
         boolean menu = true;
         while (menu){
             int selectedMenu = SelectedMenu();
-            menu = menu(selectedMenu);
+            menu = Menu(selectedMenu);
         }
     }
     public static int SelectedMenu (){
@@ -33,7 +33,7 @@ public class StudentsInteractive {
         }
         return selectedMenu;
     }
-    public static boolean menu(int selectedMenu) throws Exception{
+    public static boolean Menu(int selectedMenu) throws Exception{
         if (selectedMenu < 1 || selectedMenu > 7){
             System.out.println("Вы выбрали не существующий пункт меню, попробуйте еще раз: ");
         }else if (selectedMenu == 1){
