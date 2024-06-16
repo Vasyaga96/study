@@ -18,11 +18,11 @@ public class StudentsInteractive {
         }
         boolean menu = true;
         while (menu){
-            int selectedMenu = selectedMenu();
+            int selectedMenu = SelectedMenu();
             menu = menu(selectedMenu);
         }
     }
-    public static int selectedMenu (){
+    public static int SelectedMenu (){
         printMenu();
         int selectedMenu = scannerInput.nextInt();
         System.out.println();
